@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+
+body{
+    background: #001e4d;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    max-height: 100vh;
+}
+
+.app{
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    user-select: none;
+
+    .app__title{
+        margin-bottom: 20px;
+    }
+
+    hr{
+        border: 1px solid black;
+        margin-bottom: 20px;
+    }
+
+    .app__question{
+        margin-bottom: 12px;
+    }
+
+    .app__list-item{
+        margin-bottom: 8px;
+
+        .app__answer-btn{
+            width: 100%;
+            background-color: transparent;
+            text-align: left;
+            padding: 0 5px;
+            border: 1px solid black;
+            border-radius: 4px;
+            padding: 12px;
+            cursor: pointer;
+        }
+
+        .app__answer-btn:hover{
+            background-color: rgba(128, 128, 128, 0.808);
+        }
+
+        .app__answer-btn.no-hover {
+            background-color: transparent;
+        }
+    }
+
+
+    .app__btn-container{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 22px;
+
+
+
+        .next-btn{
+            padding: 7px;
+            background-color: #fff;
+            border: 1px solid black;
+            color: black;
+            width: 100px;
+            cursor: pointer;
+        }
+    }
+
+    .app__progress-container{
+        width: 100%;
+        margin-bottom: 14px;
+        height: 20px;
+        border: 1px solid black;
+        border-radius: 8px;
+        
+
+        .app__progress-bar{
+            width: 0%;
+            height: 100%;
+            border-radius: 8px;
+            background-color: green;
+            transition: all .5s ease;
+        }
+    }
+
+    .app__percentage-of-progress{
+        align-self: center;
+        margin-bottom: 5px;
+    }
+
+    .app__list-and-caption{
+        display: flex;
+        flex-direction: column;
+        user-select: none;
+    }
+
+    
+}
+

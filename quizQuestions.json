@@ -1,0 +1,102 @@
+[
+    {
+        "question_title": "Яке основне призначення мови програмування C++?",
+        "answers": [
+            "Робота з базами даних",
+            "Створення веб-сайтів",
+            "Ігрова розробка",
+            "Аналіз даних"
+        ],
+        "correctAnswer": "Ігрова розробка"
+    },
+    {
+        "question_title": "Який файл використовується для зберігання залежностей проекту в мові JavaScript?",
+        "answers": [
+            "package.json",
+            "dependency.json",
+            "config.json",
+            "manifest.json"
+        ],
+        "correctAnswer": "package.json"
+    },
+    {
+        "question_title": "Що таке HTML?",
+        "answers": [
+            "Мова розмітки гіпертексту",
+            "Мова програмування",
+            "База даних",
+            "Графічний інтерфейс"
+        ],
+        "correctAnswer": "Мова розмітки гіпертексту"
+    },
+    {
+        "question_title": "Яка з перерахованих мов програмування є статично типізованою?",
+        "answers": [
+            "JavaScript",
+            "Python",
+            "C++",
+            "Ruby"
+        ],
+        "correctAnswer": "C++"
+    },
+    {
+        "question_title": "Яке розширення файлу у виконуваних файлах в операційній системі Windows?",
+        "answers": [
+            ".exe",
+            ".app",
+            ".bin",
+            ".run"
+        ],
+        "correctAnswer": ".exe"
+    },
+    {
+        "question_title": "Що таке Git?",
+        "answers": [
+            "Мова програмування",
+            "Система управління версіями",
+            "База даних",
+            "Веб-браузер"
+        ],
+        "correctAnswer": "Система управління версіями"
+    },
+    {
+        "question_title": "Яка з перерахованих операційних систем є сімейством Unix?",
+        "answers": [
+            "Windows",
+            "Linux",
+            "MacOS",
+            "Android"
+        ],
+        "correctAnswer": "Linux"
+    },
+    {
+        "question_title": "Який тег використовується для створення заголовка в HTML?",
+        "answers": [
+            "<header>",
+            "<h1>",
+            "<title>",
+            "<head>"
+        ],
+        "correctAnswer": "<h1>"
+    },
+    {
+        "question_title": "Як називається процес передачі даних через Інтернет?",
+        "answers": [
+            "Рефакторинг",
+            "Тестування",
+            "Серіалізація",
+            "Передача даних"
+        ],
+        "correctAnswer": "Серіалізація"
+    },
+    {
+        "question_title": "Який метод HTTP використовується для запиту даних від сервера?",
+        "answers": [
+            "POST",
+            "GET",
+            "PUT",
+            "DELETE"
+        ],
+        "correctAnswer": "GET"
+    }
+]
